@@ -4,6 +4,10 @@ label {
   display: block;
 }
 
+textarea {
+  margin-bottom: 10px;
+}
+
 .inputItem:not(:last-child) {
   margin-bottom: 10px;
 }
