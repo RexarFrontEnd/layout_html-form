@@ -16,6 +16,7 @@
         <legend>Personal information</legend>
         <label>Surname:
           <input 
+           
           type="text"
           name="Surname" 
           required
@@ -23,6 +24,7 @@
         </label>
         <label>Name:
           <input 
+           
           type="text" 
           name="Name" 
           required
@@ -31,6 +33,7 @@
         <label>
           How old are You?
           <input 
+           
           type="number" 
           name="Age" 
           min="1" 
@@ -41,6 +44,7 @@
         </label>
         <label>Full date of birth:
           <input 
+           
           type="date" 
           name="Date" 
           required
@@ -49,6 +53,7 @@
         <label>
           I accept the term of the agreement:
           <input 
+           
           type="checkbox" 
           name="agreement" 
           required
@@ -59,7 +64,8 @@
         <legend>Registration</legend>
         <label>E-mail:
           <input 
-          type="mail" 
+           
+          type="email" 
           name="Mail"
           placeholder="mail@example.com"
           required
@@ -67,6 +73,7 @@
         </label>
         <label>Password:
           <input 
+           
           type="password" 
           name="Password" 
           minlength="4" 
@@ -78,27 +85,27 @@
       <fieldset>
         <legend>An interesting fact about you!</legend>
         <label>Do you love cats?
-          <label >
-            <input 
-            type="radio"
-            name="check"
-            value="yes"
-            required
-            >
-            yes
-          </label>
-          <label>
-            <input 
-            type="radio" 
-            name="check" 
-            value="no" 
-            required
-            >
-            no
-          </label>
+          
+          <input 
+             
+          type="radio"
+          name="check"
+          value="yes"
+          required
+          >
+          yes
+          <input    
+          type="radio" 
+          name="check" 
+          value="no" 
+          required
+          >
+          no
+          
         </label>
         <label>What is your favorite colour?
           <input 
+           
           type="color" 
           name="Color"
           >
@@ -106,8 +113,10 @@
         <label>
         What time do you go to bed?
           <input 
+           
           type="time" 
           name="Time"
+          step="2"
           >
         </label>
         <label for="cars">What are your favorite cars?
@@ -123,6 +132,7 @@
         </label>
         <label>How do you rate out work?
           <input 
+           
           name="rateOfWork"
           type="range"
           min="1" 
