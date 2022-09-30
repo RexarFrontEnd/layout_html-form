@@ -2,6 +2,9 @@
 
 label {
   display: block;
+}
+
+input {
   margin: 10px 0;
 }
 
