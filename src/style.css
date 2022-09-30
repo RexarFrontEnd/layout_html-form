@@ -2,6 +2,9 @@
 
 label {
   display: block;
+}
+
+.inputItem:not(:last-child) {
   margin-bottom: 10px;
 }
 
