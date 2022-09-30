@@ -2,12 +2,9 @@
 
 label {
   display: block;
-}
-
-input {
-  margin: 10px 0;
+  margin-bottom: 10px;
 }
 
 fieldset {
-  margin: 20px 0;
+  margin-bottom: 20px;
 }
